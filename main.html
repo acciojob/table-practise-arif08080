@@ -5,36 +5,49 @@
 <head>
 	<title>Table</title>
 </head>
+	<style>
+		     table {
+            background-color: yellow;
+            border-collapse: collapse;
+        }
+        table, th, tr, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 5px 10px;
+            text-align: left;
+        }
+        th {
+            font-weight: bold;
+        }
+	</style>
 	   <link rel="stylesheet" href="styles.css">
 <body>
 	<!-- the entire body must be written by student -->
-	   <table>
-		   <caption>
-			   Student Details
-		   </caption>
-		   <thead>
-			   <tr>
-			   
-			   <th>NAME</th>
-			   <th>AGE</th>
-			   <th>BRANCH</th>
-		   </tr>
-		   </thead>
-		   
-		   <tbody>
-		   <tr>
-			   <td>Shaw</td>
-			   <td>20</td>
-			   <td>CSE</td>
-		   </tr>
-		   <tr>
-			   <td>Adil</td>
-			   <td>21</td>
-			   <td>ECE</td>
-		   </tr>
-		 </tbody>
-	   </table>
-
+	<table>
+        <caption>Student Details</caption>
+        
+        <thead>
+            <tr>
+                <th>NAME</th>
+                <th>AGE</th>
+                <th>BRANCH</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>Shaw</td>
+                <td>20</td>
+                <td>CSE</td>
+            </tr>
+            <tr>
+                <td>Adil</td>
+                <td>21</td>
+                <td>ECE</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 
 </html>
